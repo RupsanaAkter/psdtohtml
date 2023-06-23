@@ -1,0 +1,252 @@
+.card-section {
+    position: relative;
+  height: 500px;
+  background-image: url('images/img.webp');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  
+}
+.card-section2{
+    position: relative;
+  height: 500px;
+  background-image: url('images/img.webp');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.big{
+    font-size: xx-large;
+}
+.section {
+  position: relative;
+  background-image: url('images/img.webp');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  color: white;
+  text-align: center;
+  
+}
+.bottom-card {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 5px;
+}
+.overlapping-card {
+  position: relative;
+  margin-bottom: -100px;
+  background-color: rgba(233, 226, 226, 0.7);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+
+
+body {
+  margin-left: 50px;
+  margin-right: 50px;
+  /* padding: 100px; */
+}
+.section12 {
+  position: relative;
+  height: 500px;
+  background-image: url('images/img.webp');
+  background-size: cover;
+  background-position: center;
+}
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  
+}
+.navbar a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.bottom-box {
+  position: absolute;
+  bottom: 150px;
+  left: 300px;
+  border-radius: 5px;
+  background-color:  white;
+  padding: 30px;
+  color: rgb(16, 16, 16);
+}
+.middle{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: antiquewhite;
+  font-size: 100px;
+  padding-top: 100px;
+}
+.second-part{
+display: inline-flex;
+padding-left: 33%;
+}
+.part1{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.part2{
+padding-top: 20px;
+padding-left: 70%;
+display: inline-flex;
+}
+.part3{
+padding-left: 15%;
+display: inline-flex;
+padding-top: 20px;
+}
+.section3-part{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: left;
+padding-left: 30%;
+padding-right: 20%;
+padding-bottom: 10%;
+}
+.section3-part2{
+font-size: 100px;
+padding: 10px;
+
+}
+.img{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    padding-left:20%;
+}
+.img2{
+  padding-left: 10%;
+}
+.img3{
+  padding-left: 10%;
+}
+.section4-part{
+  font-size: 100px;
+padding: 10px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.second4-part2{
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-right: 10px;
+}
+.section5-part{
+padding-left: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.boxmodel{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 30px;
+}
+.section6-part{
+padding-left: 30%;
+}
+.second6-part2{
+color: #141414;
+background: #ddd;
+}
+
+
+/* Phone responsiveness */
+
+@media screen and (max-width: 600px) {
+    .section12,
+    .card-section,
+    .card-section2 {
+      height: 300px;
+    }
+  
+    .middle {
+      font-size: 40px;
+      padding-top: 50px;
+    }
+  
+    .bottom-box {
+       
+      bottom: 50px;
+      left: 20px;
+      
+      padding: 5px;
+      font-size: 16px;
+    }
+  
+    .part1,
+    .part2,
+    .part3 {
+      padding: 5px;
+    }
+  
+    .section3-part {
+      padding-left: 10%;
+      padding-right: 10%;
+      padding-bottom: 5%;
+    }
+  
+    .section3-part2 {
+      font-size: 60px;
+      padding: 5px;
+    }
+  
+    .img2,
+    .img3 {
+       
+      padding-left: 7%;
+    }
+  .img{
+    padding-left: 6%;
+    height: 50px;
+    width: 50px;
+  }
+    .section4-part {
+      font-size: 60px;
+      padding: 5px;
+    }
+  
+    .second4-part2 {
+      font-size: 20px;
+      padding-right: 5px;
+    }
+  
+    .section5-part {
+      padding-left: 10px;
+    }
+  
+    .boxmodel {
+      font-size: 20px;
+    }
+  
+    .section6-part {
+      padding-left: 10%;
+    }
+  
+    .second6-part2 {
+      color: #141414;
+      background: #ddd;
+    }
+    .second-part{
+        display: inline;
+
+    }
+   
+  }
